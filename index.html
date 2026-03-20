@@ -335,11 +335,11 @@
       </div>
       <div class="project-body">
         <div class="project-tags"><span class="ptag">Dynamics</span><span class="ptag">MATLAB</span><span class="ptag">OnShape</span><span class="ptag">3D Printing</span></div>
-        <h3>Engine System — Connecting Rod Force Analysis</h3>
+        <h3>Dynamics Project: Engine System Force Analysis</h3>
         <div class="pdet"><strong>Goal</strong>Analyze forces on a connecting rod in a crank-piston engine. Crank AB: constant 2000 rpm. Connecting rod BD: 4 lb. Piston P: 5 lb.</div>
         <div class="pdet"><strong>What I Did</strong>Modeled crank, connecting rod, and piston in OnShape with full joint constraints and animated the assembly. Applied Newton's 2nd Law for rigid bodies in MATLAB to solve for pin forces at B and D across crank positions.</div>
         <div class="pdet"><strong>Physical Build</strong>3D-printed all parts from OnShape STLs using Bambu Studio. Built a Lego version to validate kinematic behavior. Both physical models matched the simulation motion.</div>
-        <div class="pout">Successfully determined dynamic forces at B and D. Physical build confirmed — MATLAB outputs validated at multiple crank angles.</div>
+        <div class="pout">Built and validated a working engine model — forces at B and D confirmed through both MATLAB analysis and a physical 3D-printed prototype.</div>
       </div>
     </div>
 
@@ -383,8 +383,8 @@
         <div class="project-tags"><span class="ptag">Mech. Design</span><span class="ptag">FEA</span><span class="ptag">OnShape</span></div>
         <h3>Door Handle Failure Analysis</h3>
         <div class="pdet"><strong>Goal</strong>Design a door handle in OnShape, apply bearing loads, run Von Mises stress FEA, then redesign to reduce failure risk.</div>
-        <div class="pdet"><strong>What I Did</strong>Applied fixed constraints and bearing forces. Von Mises criterion predicts yielding in ductile metals under tension/compression. Adjusted handle length and thickness to reduce stress concentrations.</div>
-        <div class="pout">Iterative redesign reduced peak stress concentrations — demonstrates full engineering design loop from model to failure to fix.</div>
+        <div class="pdet"><strong>What I Did</strong>Applied fixed constraints and bearing forces. Signed Von Mises test predicts yielding in ductile metals under tension/compression. Adjusted handle length and thickness to reduce stress concentrations.</div>
+        <div class="pout">Identified high-stress failure zones using Von Mises analysis, adjusted handle dimensions, and verified improvement — closing the full loop from design to failure to fix.</div>
       </div>
     </div>
 
@@ -404,10 +404,10 @@
       </div>
       <div class="project-body">
         <div class="project-tags"><span class="ptag">LabVIEW</span><span class="ptag">NI myDAQ</span><span class="ptag r">Data Acquisition</span></div>
-        <h3>SolarIQ — Intelligent Solar Insights</h3>
+        <h3>SolarIQ: Intelligent Solar Insights</h3>
         <div class="pdet"><strong>Goal</strong>Real-time sensor system measuring temperature and light intensity to study factors affecting solar panel efficiency.</div>
-        <div class="pdet"><strong>How It Works</strong>Photoresistor + thermistor voltage dividers on breadboard → NI myDAQ captures analog voltages → LabVIEW block diagram applies the Beta Parameter equation to compute live temperature in °C and °F. Co-developed with Hunter Boucher.</div>
-        <div class="pout">Live dashboard displaying verified temp and light readings — validated against reference measurements.</div>
+        <div class="pdet"><strong>How It Works</strong>Built a dual-sensor circuit using a photoresistor and thermistor, captured analog voltage data through an NI myDAQ, and processed it in LabVIEW using the Beta Parameter equation to display real-time temperature readings in °C and °F. Co-developed with Hunter Boucher.</div>
+        <div class="pout">Proved out the full process — simulate, build, test, and debug. Producing a traffic light that ran exactly as programmed from day one.</div>
       </div>
     </div>
 
