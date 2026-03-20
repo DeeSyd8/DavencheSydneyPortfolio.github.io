@@ -358,8 +358,8 @@
       <div class="project-body">
         <div class="project-tags"><span class="ptag">ROS 2</span><span class="ptag">Python</span><span class="ptag r">Robotics</span></div>
         <h3>ROS 2 Navigation Robot</h3>
-        <div class="pdet"><strong>Goal</strong>Build an autonomous robot that follows a target while avoiding obstacles using ROS 2.</div>
-        <div class="pdet"><strong>What I Did</strong>Implemented obstacle detection via LaserScan, TF-based target following, and a finite state machine managing follow / avoid / search modes.</div>
+        <div class="pdet"><strong>Goal</strong>Upgrade a ROS 2 navigation node so the robot detects obstacles and steers around them instead of stopping, then continues toward the target.</div>
+        <div class="pdet"><strong>What I Did</strong>Designed the avoidance logic using a flowchart first, then implemented it as a non-blocking control loop. The robot detects what's in its way, steers around it, and automatically resumes toward the goal.</div>
         <div class="pout">Robot navigates autonomously with smooth obstacle avoidance and consistent target tracking.</div>
       </div>
     </div>
@@ -380,7 +380,7 @@
         <div class="proj-badge">03</div>
       </div>
       <div class="project-body">
-        <div class="project-tags"><span class="ptag">Mech. Design</span><span class="ptag">FEA</span><span class="ptag">OnShape</span></div>
+        <div class="project-tags"><span class="ptag">Mechanical Design</span><span class="ptag">FEA</span><span class="ptag">OnShape</span></div>
         <h3>Door Handle Failure Analysis</h3>
         <div class="pdet"><strong>Goal</strong>Design a door handle in OnShape, apply bearing loads, run Von Mises stress FEA, then redesign to reduce failure risk.</div>
         <div class="pdet"><strong>What I Did</strong>Applied fixed constraints and bearing forces. Signed Von Mises test predicts yielding in ductile metals under tension/compression. Adjusted handle length and thickness to reduce stress concentrations.</div>
@@ -426,10 +426,10 @@
         <div class="proj-badge">05</div>
       </div>
       <div class="project-body">
-        <div class="project-tags"><span class="ptag">Systems Eng.</span><span class="ptag">Requirements</span><span class="ptag">Team: 4</span></div>
+        <div class="project-tags"><span class="ptag">Systems Engineering</span><span class="ptag">Requirements</span><span class="ptag">Team: 4</span></div>
         <h3>Wind Farm Systems Engineering</h3>
         <div class="pdet"><strong>Scope</strong>Full systems engineering assessment for a proposed wind farm at Endicott College. Identified 9 stakeholder groups. Produced RRTs for gear box, tower, nacelle, generator, transformer, grid location, efficiency, and cost. Authored and co-signed MDOR with full team.</div>
-        <div class="pdet"><strong>Cost Analysis</strong>Each turbine: $2–4M. Output: ~843,000 kWh/month — far exceeds estimated campus need of ~58,590 kWh/month. Grid cable estimated at ~1,000 ft of high-voltage wire ($2,500–5,000 per 500 ft).</div>
+        <div class="pdet"><strong>Cost Analysis</strong>A single turbine generates enough power to cover campus energy needs more than 14 times over at roughly 843,000 kWh per month, with an upfront cost of $2–4M and an estimated $5,000–10,000 in grid cabling.</div>
         <div class="pout">Complete MDOR approved by all team members. Deliverable could be handed directly to a real engineering team as a project foundation.</div>
       </div>
     </div>
@@ -499,7 +499,7 @@
         <div class="cap-spec"><div class="cap-spec-lbl">Battery Pack</div><div class="cap-spec-val">2× 18650 Li-ion</div></div>
         <div class="cap-spec"><div class="cap-spec-lbl">Solar Harvest</div><div class="cap-spec-val">6.60 Wh / 5 hrs</div></div>
       </div>
-      <p>Solar validation test confirmed the TP4056 charging path delivers meaningful daytime recovery — battery voltage rose 0.474V over 5 hours without exceeding the 4.2V safety ceiling. Next: integrate PIR motion sensor, Time-of-Flight sensor, and Seeedstudio Grove Base Board, then begin field testing.</p>
+      <p>SPowered by a solar panel and TP4056 charging circuit, the system runs fully off-grid. The next phase is adding motion and distance sensors and taking the system into the field.</p>
       <div class="cap-tags">
         <span class="ctag">ESP32S3</span><span class="ctag">Solar</span><span class="ctag">GPS</span>
         <span class="ctag">DHT22</span><span class="ctag">PIR Motion</span><span class="ctag">Arduino</span><span class="ctag">IoT</span>
